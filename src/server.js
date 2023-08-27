@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
 		"Access-Control-Allow-Methods": "GET, PING, OPTIONS",
 		"Content-Type": "text/html"
     })
+	res.end();
 })
 
 server.listen(port, () => console.log('server for UpTimeRobot is ready'))
